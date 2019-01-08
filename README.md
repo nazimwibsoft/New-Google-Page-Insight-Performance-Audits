@@ -1,5 +1,13 @@
-# New-Google-Page-Insight-Performance-Audits
-New Google Page Insight Performance Audits
+# New Google Page Insight Performance Audits
+Google introduced new performance audits for Mobile and Desktop in July 2018, most sites would see a low score on their Mobile as new and strict rules are in place to improve performance of web applications on a mobile device. PageSpeed tools are available to analyze and optimize your sites:
+
+<ul>
+  <li>Speed up your browsing with Google DNS https://developers.google.com/speed/public-dns</li>
+  <li>New WebP Image format for PNG https://developers.google.com/speed/webp</li>
+  <li>Speed up your site with Google PageSpeed Modules available for Apache & Nginx https://developers.google.com/speed/pagespeed/module/</li>
+</ul>
+
+Following are key points that I have compiled after doing research work on the performance audits and ways to pass these audits:
 
 > <strong>Change Image tags to background images</strong> where ever applicable as these will load after the page loads, and especially when the elements are initially hidden not visible and are shown on some event or mouse hove or click. The background images will load automatically when an element is made visible.
 
@@ -13,7 +21,7 @@ New Google Page Insight Performance Audits
 
 > <strong>Offload popular open-source libraries</strong> to https://developers.google.com/speed/libraries Like For popular JS like jQuery use hosted files to off load these resources https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
 
-> <strong>Optimize main menu HTML</strong> to avoid and remove excessive HTML nodes to reduce HTML code depth, like avoid using span and nesting span elements in &lt;li&gt;. Also remove any blank &lt;li&gt; or &lt;ul&gt; nodes from the menu HTML code. And implement one HTML menu code for all devices and handle its appearance using CSS & Javascript.
+> <strong>Optimize main menu HTML</strong> to avoid and remove excessive HTML nodes to reduce HTML code depth, like avoid using span and nesting span elements in &lt;li&gt;. Also remove any blank &lt;li&gt; or &lt;ul&gt; nodes from the menu HTML code. And implement one HTML menu code for all devices and handle its appearance using CSS & JavaScript.
 
 > <strong>Reduce image resolution</strong> to make it as close possible to the visible dimensions of the image on the page. Like if an image will have a maximum size of 200x200 on any resolution then the actual image source should also be a 200x200 image or as close possible to this dimensions like a 220 x 230 or as close possible. Using large images like 600 x 450 will give you negative score on Mobile devices.
 
