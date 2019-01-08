@@ -7,6 +7,16 @@ Google introduced new performance audits for Mobile and Desktop in July 2018, mo
   <li>Speed up your site with Google PageSpeed Modules available for Apache & Nginx https://developers.google.com/speed/pagespeed/module/</li>
 </ul>
 
+Here are some of the tools recommened by Google to evaluate your score:
+
+<ul><li><a href="https://developers.google.com/web/tools/chrome-user-experience-report/">Chrome User Experience Report</a>, a public dataset of key user experience metrics for popular destinations on the web, as experienced by Chrome users under real-world conditions</li>
+
+<li><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a>, an automated tool and a part of Chrome Developer Tools for auditing the quality (performance, accessibility, and more) of web pages</li>
+
+<li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a>, a tool that indicates how well a page performs on the Chrome UX Report and suggests performance optimizations</li></ul>
+
+# How to Pass these Audits
+
 Following are key points that I have compiled after doing research work on the performance audits and ways to pass these audits:
 
 > <strong>Change Image tags to background images</strong> where ever applicable as these will load after the page loads, and especially when the elements are initially hidden not visible and are shown on some event or mouse hove or click. The background images will load automatically when an element is made visible.
